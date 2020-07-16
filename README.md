@@ -1,4 +1,4 @@
-# Modeling Population Growth
+# <div align="center">Modeling Population Growth</div>
 Skills Demonstrated: *data simulation, predictive modeling, custom functions, feature engineering*<br />
 Libraries and Programs: *Python, Jupyter Notebook, math, matplotlib, numpy, pandas*<br />
 Filename(s): PLC_MatrixModel.ipynb
