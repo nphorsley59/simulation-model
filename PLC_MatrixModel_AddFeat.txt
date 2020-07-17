@@ -1,0 +1,26 @@
+Partial Life-cycle Matrix Model - Additional Features
+
+1. Age-specific Survival and Fecundity
+
+For well-studied species, estimates of age-specific survival and fecundity are sometimes available.
+These estimates could be specific to the age of an individual or to a broader age class. For example,
+birds just reaching sexual maturity may have lower fecundity because they have a harder time
+establishing territories and finding mates. Such a distinction is an important modeling consideration.
+I built my model with the capacity to utilize age-specific survival and fecundity inputs.
+
+2. Flexible Parameter Input Design
+
+It is not uncommon for the demographic data that is available to vary between study species. Some 
+researchers may have estimates for nest success, post-fledging survival, and other reproductive parameters, 
+while others may only know fecundity. As such, I built my model with the capacity to utilize a wide 
+variety of parameter inputs. The user can construct population growth models whose accuracy reflect the 
+resolution of the available data. This flexibility extends to reproductive rates, survival rates, and 
+estimates of stochasticity.
+
+3. Elasticity Analysis
+
+Population modeling is often coupled with a sensitivity or elasticity analysis in studies of declining
+species. The purpose of this analysis is to identify the most sensitive life stage; this maximizes the
+efficiency of any subsequent management action. I built an elasticity analysis into the structure of my
+model that can be turned on and customized by the user. It tests each parameter used by the model, 
+identifies the least and most elastic, and provides delta values for direct comparisons.
