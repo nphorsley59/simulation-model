@@ -23,7 +23,7 @@ Matrix models use matrices to track population growth across age classes (Table 
 
 **Table 1.** A sample of the age matrix dataframe that shows population distribution across age classes.<br />
 
-![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/Pop_Matrix_Table1.png "Age Matrix")<br />
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/blob/master/Figures/Pop_Matrix_Table1.png "Age Matrix")<br />
 
 In order to account for environmental stochasticity, I built natural variation into each rate based on real data collected in the field. As a result, each simulation produces slightly different results (Table 2, Figure 2). 
 
