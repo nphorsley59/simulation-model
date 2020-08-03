@@ -1,6 +1,9 @@
 # <div align="center">Modeling Population Growth</div>
 
 ### <div align="center">Project Overview</div>
+Skills Demonstrated: *data simulation, predictive modeling, custom functions, feature engineering*<br />
+Libraries and Programs: *Python, Jupyter Notebook, math, matplotlib, numpy, pandas*<br />
+
 As part of my Master's thesis, I built a partial life-cycle matrix model<sup>1</sup> and used it to predict the survival rate of Common Grackles<sup>2</sup> during the non-breeding season. The model simulates realistic population growth and has several additional features that extend beyond the scope of my research. I am in the process of publishing the results produced by this model. I am also using this model to do predictive modeling for another publication investigating Micronesian Starling demography on the island of Guam.
 
 ### <div align="center">Model Structure</div>
