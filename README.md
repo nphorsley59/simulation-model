@@ -23,31 +23,31 @@ Matrix models use matrices to track population growth across age classes (Table 
 
 **Table 1.** A sample of the age matrix dataframe that shows population distribution across age classes.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/PLC_MatrixModel_Figures/Pop_Matrix_Table1.png "Age Matrix")<br />
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/Pop_Matrix_Table1.png "Age Matrix")<br />
 
 In order to account for environmental stochasticity, I built natural variation into each rate based on real data collected in the field. As a result, each simulation produces slightly different results (Table 2, Figure 2). 
 
 **Table 2.** A sample of the population growth dataframe that show population growth across simulations.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/PLC_MatrixModel_Figures/Pop_Growth_Table1.png "Population Growth")<br />
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/Pop_Growth_Table1.png "Population Growth")<br />
 
 For my thesis, we used established demographic rates from the literature and estimated demographic rates from our own research (Table 3) to predict non-breeding season survival in three distinct populations: a stable population, the current global population, and the current Illinois population (Table 4, Figure 1). 
 
 **Table 3.** The model parameters used to predict non-breeding season survival.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/PLC_MatrixModel_Figures/Model_Parameters_Table1.png "Model Parameters")<br />
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/Model_Parameters_Table1.png "Model Parameters")<br />
 
 **Table 4.** The predicted rates of non-breeding season survival for each population.<br />
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/PLC_MatrixModel_Figures/NBS_Survival_Predictions_Table1.png "Model Predictions")<br />
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/NBS_Survival_Predictions_Table1.png "Model Predictions")<br />
 
 **Figure 1.** Population growth projections using predictions of non-breeding survival for three distinct populations.<br />
 &nbsp;  
 
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/PLC_MatrixModel_Figures/Proj_Pop_Growth_Figure1.png "Predicted Population Growth")<br />
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/Proj_Pop_Growth_Figure1.png "Predicted Population Growth")<br />
 
 **Figure 2.** A sample of simulations produced by the model, replicating projected decline in Illinois.<br />
-![alt text](https://github.com/nphorsley59/Portfolio/blob/master/PLC_MatrixModel_Figures/livesim_plot_24sims.gif "Simulation Animation")
+![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/tree/master/Figures/livesim_plot_24sims.gif "Simulation Animation")
 ### <div align="center">Summary</div>
 
 The partial life-cycle matrix model I built for my Master's thesis was used to project population decline in my study species, the Common Grackle, and to predict rates of non-breeding season survival for three distinct populations: a stable population, the current global population, and the current Illinois population. The modeling approach I chose allowed me to use many demographic parameters and account for realistic environmental variation. I learned a lot about model design, custom functions, and advanced visualization techniques from this project and am excited to reuse the model to answer other research questions in the future.
