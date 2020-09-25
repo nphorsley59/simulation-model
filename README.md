@@ -1,4 +1,4 @@
-# <div align="center">Modeling Population Growth</div>
+# <div align="center">Simulating Population Growth</div>
 
 ### <div align="center">Project Overview</div>
 Skills Demonstrated: *data simulation, predictive modeling, custom functions, feature engineering*<br />
