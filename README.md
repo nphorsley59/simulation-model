@@ -1,28 +1,28 @@
-# <div align="center">Simulating Population Growth</div>
+# <div align="center">Simulating Population Decline</div>
 
 ### <div align="center">Project Overview</div>
 Skills Demonstrated: *data simulation, predictive modeling, custom functions, feature engineering*<br />
 Libraries and Programs: *Python, Jupyter Notebook, math, matplotlib, numpy, pandas*<br />
 
-As part of my Master's thesis, I built a partial life-cycle matrix model<sup>1</sup> and used it to predict the survival rate of Common Grackles<sup>2</sup> during the non-breeding season. The model simulates realistic population growth and has several additional features that extend beyond the scope of my research. I am in the process of publishing the results produced by this model. I am also using this model to do predictive modeling for another publication investigating Micronesian Starling demography on the island of Guam.
+As part of my Master's thesis, I built a partial life-cycle matrix model<sup>1</sup> and used it to predict the survival rate of Common Grackles<sup>2</sup> during the non-breeding season. The model simulates realistic population decline and has several additional features that extend beyond the scope of my research. I am in the process of publishing the results produced by this model. I am also using this model to do predictive modeling for another publication investigating Micronesian Starling demography on the island of Guam.
 
 ### <div align="center">Model Structure</div>
 
 #### Stage 1
-The first modeling stage simulates population growth over a pre-defined trial period to transform a single population variable into an array representing stable age distribution. 
+The first modeling stage simulates population decline over a pre-defined trial period to transform a single population variable into an array representing stable age distribution. 
 
 #### Stage 2
-The second modeling stage proportionally adjusts the stable age distribution array to represent the desired initial population size. From here, population growth is simulated over the length of time defined by the user.
+The second modeling stage proportionally adjusts the stable age distribution array to represent the desired initial population size. From here, population decline is simulated over the length of time defined by the user.
 
 #### Stage 3
-The third and final modeling stage averages annual population size and growth over the number of simulations defined by the user. It then plots mean population size with confidence intervals and calculates an annual trend estimate.
+The third and final modeling stage averages annual population size and decline over the number of simulations defined by the user. It then plots mean population size with confidence intervals and calculates an annual trend estimate.
 
 #### Additional Features
 The three stages outlined above describe the most simplistic modeling approach. More details can be found in the PLC_MatrixModel_AddFeat.txt file included in my Portfolio repository.
 
 ### <div align="center">Results</div>
 
-Matrix models use matrices to track population growth across age classes (Table 1). This model structure allowed me to input age-specific survival and fecundity for more accurate modeling results. 
+Matrix models use matrices to track population decline across age classes (Table 1). This model structure allowed me to input age-specific survival and fecundity for more accurate modeling results. 
 
 **Table 1.** A sample of the age matrix dataframe that shows population distribution across age classes.<br />
 
@@ -30,7 +30,7 @@ Matrix models use matrices to track population growth across age classes (Table 
 
 In order to account for environmental stochasticity, I built natural variation into each rate based on real data collected in the field. As a result, each simulation produces slightly different results (Table 2, Figure 2). 
 
-**Table 2.** A sample of the population growth dataframe that show population growth across simulations.<br />
+**Table 2.** A sample of the population decline dataframe that show population decline across simulations.<br />
 
 ![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/blob/master/Figures/Pop_Growth_Table1.png "Population Growth")<br />
 
@@ -44,7 +44,7 @@ For my thesis, we used established demographic rates from the literature and est
 
 ![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/blob/master/Figures/NBS_Survival_Predictions_Table1.png "Model Predictions")<br />
 
-**Figure 1.** Population growth projections using predictions of non-breeding survival for three distinct populations.<br />
+**Figure 1.** Population decline projections using predictions of non-breeding survival for three distinct populations.<br />
 &nbsp;  
 
 ![alt text](https://github.com/nphorsley59/Population_Growth_Modeling/blob/master/Figures/Proj_Pop_Growth_Figure1.png "Predicted Population Growth")<br />
